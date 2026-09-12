@@ -1,5 +1,7 @@
 # OpportunityHunterAI 🚀
 
+**🌍 Live Demo:** [https://oppertunityai.vercel.app/](https://oppertunityai.vercel.app/)
+
 An intelligent, autonomous agent designed to help students and developers find and evaluate the best internship and job opportunities. Built during the Slum Hackathon.
 
 ## 🌟 Features
@@ -35,12 +37,9 @@ An intelligent, autonomous agent designed to help students and developers find a
 
 ## 👥 Team Web Nova
 
-| Name | Registration Number | GitHub | 
+| Name | Registration Number | GitHub |
 |------|---------------------|--------|
-| **Deepak Jain** | 25BCE10066 | [deepakjain2401](https://github.com/deepakjain2401) 
-
-| **Raushan Kumar** | 25BSA10163 | [raushansingh2602](https://github.com/raushansingh2602) | 
-
-| **Manas Srivastava** | 25BSA10159 | [GitHub Profile](https://github.com/manassrivastava2005) | 
-
-| **Harshita Singh Bais** | 25BAI11599 | [GitHub Profile](https://github.com/harshita146) | 
+| **Deepak Jain** | 25BCE10066 | [deepakjain2401](https://github.com/deepakjain2401) |
+| **Raushan Kumar** | 25BSA10163 | [raushansingh2602](https://github.com/raushansingh2602) |
+| **Manas Srivastava** | 25BSA10159 | [manassrivastava2005](https://github.com/manassrivastava2005) |
+| **Harshita Singh Bais** | 25BAI11599 | [harshita146](https://github.com/harshita146) |
