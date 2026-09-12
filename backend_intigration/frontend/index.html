@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OpportunityHunter AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="hero">
+      <h1>OpportunityHunter AI</h1>
+      <p class="subtitle">AUTONOMOUS BROWSER AGENT</p>
+      <p class="desc">Researches opportunities across the web, verifies eligibility, and finds the best matches for you.</p>
+    </header>
+
+    <main>
+      <section id="profile-section" class="card">
+        <h2>Student Profile</h2>
+        <form id="profile-form">
+          <div class="row">
+            <label>Name<input id="name" name="name" required /></label>
+            <label>Branch<input id="branch" name="branch" required /></label>
+          </div>
+          <div class="row">
+            <label>Year<input id="year" name="year" type="number" min="1" max="8" required /></label>
+            <label>CGPA<input id="cgpa" name="cgpa" type="number" step="0.01" min="0" max="10" required /></label>
+          </div>
+          <label>Skills (comma separated)<input id="skills" name="skills" placeholder="Python, SQL, Machine Learning" required /></label>
+          <div class="row">
+            <label>Location<input id="location" name="location" required /></label>
+            <label>Preferred Mode
+              <select id="preferred_mode" name="preferred_mode" required>
+                <option value="">Select</option>
+                <option>Remote</option>
+                <option>Onsite</option>
+                <option>Hybrid</option>
+              </select>
+            </label>
+          </div>
+          <label>Minimum Stipend<input id="minimum_stipend" name="minimum_stipend" type="number" min="0" required /></label>
+
+          <div class="actions">
+            <button id="submitBtn" type="submit">🚀 Find Opportunities</button>
+            <div id="form-error" class="error"></div>
+          </div>
+        </form>
+      </section>
+
+      <section id="agent-section" class="card hidden">
+        <h2>Agent Activity</h2>
+        <div id="agent-status" class="agent-status">🤖 Agent is idle</div>
+        <ul id="agent-events" class="events"></ul>
+      </section>
+
+      <section id="results-section" class="card hidden">
+        <h2>Results</h2>
+        <div id="summary" class="summary"></div>
+        <div id="opportunities" class="opportunities"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Details modal -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --accent:#7c3aed;
+}
+
+html,body,#__next{height:100%}
+body{background:linear-gradient(180deg,#071026 0%, #081024 60%);color:#e6eef6;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+
+.container{max-width:1100px;margin:32px auto;padding:20px}
+.card{background:rgba(255,255,255,0.02);border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(2,6,23,0.6);}
